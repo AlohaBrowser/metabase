@@ -13,7 +13,7 @@ import type {
   ParameterMappingUIOption,
 } from "metabase-types/types/Parameter";
 
-import { getParameterTargetField } from "metabase/meta/Parameter";
+import { getParameterTargetField } from "metabase/parameters/utils/targets";
 import {
   dimensionFilterForParameter,
   getTagOperatorFilterForParameter,
